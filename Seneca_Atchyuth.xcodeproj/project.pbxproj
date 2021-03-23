@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E10A1A62605E479006F91CE /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E10A1A52605E479006F91CE /* TabbarViewController.swift */; };
+		5E8CEF5A260589B0008B23FF /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8CEF59260589B0008B23FF /* CoreDataManager.swift */; };
+		5E8CEF8D2605A803008B23FF /* UserDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8CEF8C2605A803008B23FF /* UserDetailTableViewCell.swift */; };
+		5E8CEFC42605CDED008B23FF /* Company+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8CEFBE2605CDED008B23FF /* Company+CoreDataClass.swift */; };
+		5E8CEFC52605CDED008B23FF /* Company+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8CEFBF2605CDED008B23FF /* Company+CoreDataProperties.swift */; };
+		5E8CEFC62605CDED008B23FF /* Users+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8CEFC02605CDED008B23FF /* Users+CoreDataClass.swift */; };
+		5E8CEFC72605CDED008B23FF /* Users+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8CEFC12605CDED008B23FF /* Users+CoreDataProperties.swift */; };
+		5E8CEFC82605CDED008B23FF /* Address+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8CEFC22605CDED008B23FF /* Address+CoreDataClass.swift */; };
+		5E8CEFC92605CDED008B23FF /* Address+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8CEFC32605CDED008B23FF /* Address+CoreDataProperties.swift */; };
+		5E9A96B82604E292003B63BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A96B72604E292003B63BC /* AppDelegate.swift */; };
+		5E9A96BA2604E292003B63BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A96B92604E292003B63BC /* SceneDelegate.swift */; };
+		5E9A96BF2604E292003B63BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E9A96BD2604E292003B63BC /* Main.storyboard */; };
+		5E9A96C22604E292003B63BC /* Seneca_Atchyuth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A96C02604E292003B63BC /* Seneca_Atchyuth.xcdatamodeld */; };
+		5E9A96C42604E295003B63BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E9A96C32604E295003B63BC /* Assets.xcassets */; };
+		5E9A96C72604E295003B63BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E9A96C52604E295003B63BC /* LaunchScreen.storyboard */; };
+		5E9A96D22604E296003B63BC /* Seneca_AtchyuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A96D12604E296003B63BC /* Seneca_AtchyuthTests.swift */; };
+		5E9A96DD2604E296003B63BC /* Seneca_AtchyuthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A96DC2604E296003B63BC /* Seneca_AtchyuthUITests.swift */; };
+		5E9A96F62604E380003B63BC /* WebservicesFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A96F52604E380003B63BC /* WebservicesFile.swift */; };
+		5E9A96FB2604E4C6003B63BC /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A96FA2604E4C6003B63BC /* UserModel.swift */; };
+		5EF3501E2604E94900CF3413 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF3501D2604E94900CF3413 /* HomeViewController.swift */; };
+		5EF350232604E9AC00CF3413 /* UserDetaislViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF350222604E9AC00CF3413 /* UserDetaislViewController.swift */; };
+		5EF3502B2604EDA900CF3413 /* UserTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF3502A2604EDA900CF3413 /* UserTVCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E9A96CE2604E296003B63BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E9A96AC2604E292003B63BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E9A96B32604E292003B63BC;
+			remoteInfo = Seneca_Atchyuth;
+		};
+		5E9A96D92604E296003B63BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E9A96AC2604E292003B63BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E9A96B32604E292003B63BC;
+			remoteInfo = Seneca_Atchyuth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E10A1A52605E479006F91CE /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		5E8CEF59260589B0008B23FF /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		5E8CEF8C2605A803008B23FF /* UserDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailTableViewCell.swift; sourceTree = "<group>"; };
+		5E8CEFBE2605CDED008B23FF /* Company+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Company+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5E8CEFBF2605CDED008B23FF /* Company+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Company+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5E8CEFC02605CDED008B23FF /* Users+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Users+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5E8CEFC12605CDED008B23FF /* Users+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Users+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5E8CEFC22605CDED008B23FF /* Address+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Address+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5E8CEFC32605CDED008B23FF /* Address+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Address+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5E9A96B42604E292003B63BC /* Seneca_Atchyuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seneca_Atchyuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9A96B72604E292003B63BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E9A96B92604E292003B63BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5E9A96BE2604E292003B63BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E9A96C12604E292003B63BC /* Seneca_Atchyuth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Seneca_Atchyuth.xcdatamodel; sourceTree = "<group>"; };
+		5E9A96C32604E295003B63BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E9A96C62604E295003B63BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E9A96C82604E295003B63BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E9A96CD2604E296003B63BC /* Seneca_AtchyuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Seneca_AtchyuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9A96D12604E296003B63BC /* Seneca_AtchyuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seneca_AtchyuthTests.swift; sourceTree = "<group>"; };
+		5E9A96D32604E296003B63BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E9A96D82604E296003B63BC /* Seneca_AtchyuthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Seneca_AtchyuthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9A96DC2604E296003B63BC /* Seneca_AtchyuthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seneca_AtchyuthUITests.swift; sourceTree = "<group>"; };
+		5E9A96DE2604E296003B63BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E9A96F52604E380003B63BC /* WebservicesFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebservicesFile.swift; sourceTree = "<group>"; };
+		5E9A96FA2604E4C6003B63BC /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		5EF3501D2604E94900CF3413 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5EF350222604E9AC00CF3413 /* UserDetaislViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetaislViewController.swift; sourceTree = "<group>"; };
+		5EF3502A2604EDA900CF3413 /* UserTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTVCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E9A96B12604E292003B63BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9A96CA2604E296003B63BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9A96D52604E296003B63BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E9A96AB2604E292003B63BC = {
+			isa = PBXGroup;
+			children = (
+				5E8CEFBE2605CDED008B23FF /* Company+CoreDataClass.swift */,
+				5E8CEFBF2605CDED008B23FF /* Company+CoreDataProperties.swift */,
+				5E8CEFC02605CDED008B23FF /* Users+CoreDataClass.swift */,
+				5E8CEFC12605CDED008B23FF /* Users+CoreDataProperties.swift */,
+				5E8CEFC22605CDED008B23FF /* Address+CoreDataClass.swift */,
+				5E8CEFC32605CDED008B23FF /* Address+CoreDataProperties.swift */,
+				5E9A96B62604E292003B63BC /* Seneca_Atchyuth */,
+				5E9A96D02604E296003B63BC /* Seneca_AtchyuthTests */,
+				5E9A96DB2604E296003B63BC /* Seneca_AtchyuthUITests */,
+				5E9A96B52604E292003B63BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E9A96B52604E292003B63BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E9A96B42604E292003B63BC /* Seneca_Atchyuth.app */,
+				5E9A96CD2604E296003B63BC /* Seneca_AtchyuthTests.xctest */,
+				5E9A96D82604E296003B63BC /* Seneca_AtchyuthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E9A96B62604E292003B63BC /* Seneca_Atchyuth */ = {
+			isa = PBXGroup;
+			children = (
+				5E9A96EE2604E2C8003B63BC /* Model */,
+				5E9A96EF2604E2D1003B63BC /* View */,
+				5E9A96ED2604E2BF003B63BC /* Controllers */,
+				5E9A96F12604E2E8003B63BC /* CoreDataManger */,
+				5E9A96F02604E2DB003B63BC /* WebServices */,
+				5E9A96B72604E292003B63BC /* AppDelegate.swift */,
+				5E9A96B92604E292003B63BC /* SceneDelegate.swift */,
+				5E9A96BD2604E292003B63BC /* Main.storyboard */,
+				5E9A96C32604E295003B63BC /* Assets.xcassets */,
+				5E9A96C52604E295003B63BC /* LaunchScreen.storyboard */,
+				5E9A96C82604E295003B63BC /* Info.plist */,
+				5E9A96C02604E292003B63BC /* Seneca_Atchyuth.xcdatamodeld */,
+			);
+			path = Seneca_Atchyuth;
+			sourceTree = "<group>";
+		};
+		5E9A96D02604E296003B63BC /* Seneca_AtchyuthTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E9A96D12604E296003B63BC /* Seneca_AtchyuthTests.swift */,
+				5E9A96D32604E296003B63BC /* Info.plist */,
+			);
+			path = Seneca_AtchyuthTests;
+			sourceTree = "<group>";
+		};
+		5E9A96DB2604E296003B63BC /* Seneca_AtchyuthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E9A96DC2604E296003B63BC /* Seneca_AtchyuthUITests.swift */,
+				5E9A96DE2604E296003B63BC /* Info.plist */,
+			);
+			path = Seneca_AtchyuthUITests;
+			sourceTree = "<group>";
+		};
+		5E9A96ED2604E2BF003B63BC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E10A1A52605E479006F91CE /* TabbarViewController.swift */,
+				5EF3501D2604E94900CF3413 /* HomeViewController.swift */,
+				5EF350222604E9AC00CF3413 /* UserDetaislViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5E9A96EE2604E2C8003B63BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E9A96FA2604E4C6003B63BC /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5E9A96EF2604E2D1003B63BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5EF3502A2604EDA900CF3413 /* UserTVCell.swift */,
+				5E8CEF8C2605A803008B23FF /* UserDetailTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5E9A96F02604E2DB003B63BC /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				5E9A96F52604E380003B63BC /* WebservicesFile.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		5E9A96F12604E2E8003B63BC /* CoreDataManger */ = {
+			isa = PBXGroup;
+			children = (
+				5E8CEF59260589B0008B23FF /* CoreDataManager.swift */,
+			);
+			path = CoreDataManger;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E9A96B32604E292003B63BC /* Seneca_Atchyuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E9A96E12604E296003B63BC /* Build configuration list for PBXNativeTarget "Seneca_Atchyuth" */;
+			buildPhases = (
+				5E9A96B02604E292003B63BC /* Sources */,
+				5E9A96B12604E292003B63BC /* Frameworks */,
+				5E9A96B22604E292003B63BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Seneca_Atchyuth;
+			productName = Seneca_Atchyuth;
+			productReference = 5E9A96B42604E292003B63BC /* Seneca_Atchyuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E9A96CC2604E296003B63BC /* Seneca_AtchyuthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E9A96E42604E296003B63BC /* Build configuration list for PBXNativeTarget "Seneca_AtchyuthTests" */;
+			buildPhases = (
+				5E9A96C92604E296003B63BC /* Sources */,
+				5E9A96CA2604E296003B63BC /* Frameworks */,
+				5E9A96CB2604E296003B63BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E9A96CF2604E296003B63BC /* PBXTargetDependency */,
+			);
+			name = Seneca_AtchyuthTests;
+			productName = Seneca_AtchyuthTests;
+			productReference = 5E9A96CD2604E296003B63BC /* Seneca_AtchyuthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E9A96D72604E296003B63BC /* Seneca_AtchyuthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E9A96E72604E296003B63BC /* Build configuration list for PBXNativeTarget "Seneca_AtchyuthUITests" */;
+			buildPhases = (
+				5E9A96D42604E296003B63BC /* Sources */,
+				5E9A96D52604E296003B63BC /* Frameworks */,
+				5E9A96D62604E296003B63BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E9A96DA2604E296003B63BC /* PBXTargetDependency */,
+			);
+			name = Seneca_AtchyuthUITests;
+			productName = Seneca_AtchyuthUITests;
+			productReference = 5E9A96D82604E296003B63BC /* Seneca_AtchyuthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E9A96AC2604E292003B63BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					5E9A96B32604E292003B63BC = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					5E9A96CC2604E296003B63BC = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 5E9A96B32604E292003B63BC;
+					};
+					5E9A96D72604E296003B63BC = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 5E9A96B32604E292003B63BC;
+					};
+				};
+			};
+			buildConfigurationList = 5E9A96AF2604E292003B63BC /* Build configuration list for PBXProject "Seneca_Atchyuth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E9A96AB2604E292003B63BC;
+			productRefGroup = 5E9A96B52604E292003B63BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E9A96B32604E292003B63BC /* Seneca_Atchyuth */,
+				5E9A96CC2604E296003B63BC /* Seneca_AtchyuthTests */,
+				5E9A96D72604E296003B63BC /* Seneca_AtchyuthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E9A96B22604E292003B63BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9A96C72604E295003B63BC /* LaunchScreen.storyboard in Resources */,
+				5E9A96C42604E295003B63BC /* Assets.xcassets in Resources */,
+				5E9A96BF2604E292003B63BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9A96CB2604E296003B63BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9A96D62604E296003B63BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E9A96B02604E292003B63BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8CEFC42605CDED008B23FF /* Company+CoreDataClass.swift in Sources */,
+				5EF3502B2604EDA900CF3413 /* UserTVCell.swift in Sources */,
+				5E8CEFC52605CDED008B23FF /* Company+CoreDataProperties.swift in Sources */,
+				5E9A96C22604E292003B63BC /* Seneca_Atchyuth.xcdatamodeld in Sources */,
+				5E8CEFC72605CDED008B23FF /* Users+CoreDataProperties.swift in Sources */,
+				5E8CEFC62605CDED008B23FF /* Users+CoreDataClass.swift in Sources */,
+				5E9A96B82604E292003B63BC /* AppDelegate.swift in Sources */,
+				5E10A1A62605E479006F91CE /* TabbarViewController.swift in Sources */,
+				5E8CEFC82605CDED008B23FF /* Address+CoreDataClass.swift in Sources */,
+				5E8CEFC92605CDED008B23FF /* Address+CoreDataProperties.swift in Sources */,
+				5E8CEF5A260589B0008B23FF /* CoreDataManager.swift in Sources */,
+				5E9A96F62604E380003B63BC /* WebservicesFile.swift in Sources */,
+				5E9A96FB2604E4C6003B63BC /* UserModel.swift in Sources */,
+				5EF3501E2604E94900CF3413 /* HomeViewController.swift in Sources */,
+				5EF350232604E9AC00CF3413 /* UserDetaislViewController.swift in Sources */,
+				5E8CEF8D2605A803008B23FF /* UserDetailTableViewCell.swift in Sources */,
+				5E9A96BA2604E292003B63BC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9A96C92604E296003B63BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9A96D22604E296003B63BC /* Seneca_AtchyuthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9A96D42604E296003B63BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9A96DD2604E296003B63BC /* Seneca_AtchyuthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E9A96CF2604E296003B63BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E9A96B32604E292003B63BC /* Seneca_Atchyuth */;
+			targetProxy = 5E9A96CE2604E296003B63BC /* PBXContainerItemProxy */;
+		};
+		5E9A96DA2604E296003B63BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E9A96B32604E292003B63BC /* Seneca_Atchyuth */;
+			targetProxy = 5E9A96D92604E296003B63BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E9A96BD2604E292003B63BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E9A96BE2604E292003B63BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E9A96C52604E295003B63BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E9A96C62604E295003B63BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E9A96DF2604E296003B63BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E9A96E02604E296003B63BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E9A96E22604E296003B63BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 534BHF45F4;
+				INFOPLIST_FILE = Seneca_Atchyuth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.telebu.SampleLibrary.Seneca-Atchyuth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E9A96E32604E296003B63BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 534BHF45F4;
+				INFOPLIST_FILE = Seneca_Atchyuth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.telebu.SampleLibrary.Seneca-Atchyuth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5E9A96E52604E296003B63BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 534BHF45F4;
+				INFOPLIST_FILE = Seneca_AtchyuthTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.telebu.SampleLibrary.Seneca-AtchyuthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seneca_Atchyuth.app/Seneca_Atchyuth";
+			};
+			name = Debug;
+		};
+		5E9A96E62604E296003B63BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 534BHF45F4;
+				INFOPLIST_FILE = Seneca_AtchyuthTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.telebu.SampleLibrary.Seneca-AtchyuthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seneca_Atchyuth.app/Seneca_Atchyuth";
+			};
+			name = Release;
+		};
+		5E9A96E82604E296003B63BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 534BHF45F4;
+				INFOPLIST_FILE = Seneca_AtchyuthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.telebu.SampleLibrary.Seneca-AtchyuthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Seneca_Atchyuth;
+			};
+			name = Debug;
+		};
+		5E9A96E92604E296003B63BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 534BHF45F4;
+				INFOPLIST_FILE = Seneca_AtchyuthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.telebu.SampleLibrary.Seneca-AtchyuthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Seneca_Atchyuth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E9A96AF2604E292003B63BC /* Build configuration list for PBXProject "Seneca_Atchyuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E9A96DF2604E296003B63BC /* Debug */,
+				5E9A96E02604E296003B63BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E9A96E12604E296003B63BC /* Build configuration list for PBXNativeTarget "Seneca_Atchyuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E9A96E22604E296003B63BC /* Debug */,
+				5E9A96E32604E296003B63BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E9A96E42604E296003B63BC /* Build configuration list for PBXNativeTarget "Seneca_AtchyuthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E9A96E52604E296003B63BC /* Debug */,
+				5E9A96E62604E296003B63BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E9A96E72604E296003B63BC /* Build configuration list for PBXNativeTarget "Seneca_AtchyuthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E9A96E82604E296003B63BC /* Debug */,
+				5E9A96E92604E296003B63BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5E9A96C02604E292003B63BC /* Seneca_Atchyuth.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5E9A96C12604E292003B63BC /* Seneca_Atchyuth.xcdatamodel */,
+			);
+			currentVersion = 5E9A96C12604E292003B63BC /* Seneca_Atchyuth.xcdatamodel */;
+			path = Seneca_Atchyuth.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5E9A96AC2604E292003B63BC /* Project object */;
+}
